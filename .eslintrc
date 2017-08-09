@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "@neogeek/eslint-config-standards/.eslintrc-best-practices"
+        /*,
+                         "@neogeek/eslint-config-standards/.eslintrc-ecmascript-6",
+                        "@neogeek/eslint-config-standards/.eslintrc-nodejs-and-commonjs",
+                        "@neogeek/eslint-config-standards/.eslintrc-possible-errors",
+                        "@neogeek/eslint-config-standards/.eslintrc-strict-mode",
+                        "@neogeek/eslint-config-standards/.eslintrc-stylistic-issues",
+                        "@neogeek/eslint-config-standards/.eslintrc-variables" */
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    }
+}

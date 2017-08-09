@@ -1,0 +1,23 @@
+{
+    "name": "Map",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "live-server ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@neogeek/eslint-config-standards": "^2.0.0",
+        "bootstrap": "^3.3.7",
+        "eslint": "^4.4.1",
+        "live-server": "^1.2.0",
+        "openlayers": "^4.2.0",
+        "requirejs": "^2.3.4",
+        "standard": "^10.0.2"
+    },
+    "dependencies": {}
+}
